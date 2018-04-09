@@ -1,0 +1,11 @@
+A. In the part A I took one feature for calcuation of logistic regression model which is:sECSize
+The intercept in this case: -4.772536864282692
+Coefficient: [1.3593670070038373]
+
+B. In the part B I took two features for calcuation of logistic regression model which is: uCSize, cThick
+The intercept in this case: -7.151703180372813
+Coefficient: [1.1750738222419523,0.617388350052676]
+
+As seen in the previous Hosmer paper, the logistic regression model provides the graph of the logit function and the independent variable(age in that case). Similarly in this problem we observed that the logit changes by 1.3593670070038373for unit change in the independent variable in the first case. In the first case I have done logistic regression taking one feature, that is Single Epithelial Cell Size. Hence the logistic regression produces the intercept of -4.772536864282692 in the y axis and the coefficient is 1.3593670070038373 which represents the change of the log value of odds of occuring of breast cancer with unit change in the indepndent variable.
+
+In the second example, I have taken two features namely, Uniformity of Cell Size and clump thickness to model the dataset. We found that the coefficient increases with the Single Epithelial Cell Size and it becomes 1.3593670070038373 which is more than with the other parameters. hence it shows that log of odds increases more with change in value of the Single Epithelial Cell Size.
